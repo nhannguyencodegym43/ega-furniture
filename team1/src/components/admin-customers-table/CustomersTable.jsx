@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useEffect, useState} from "react";
 import "../AuthorsTable/AuthorsTable.css";
 import CustomerItems from "./CustomerItems.jsx";
@@ -17,6 +18,102 @@ export default function CustomersTable() {
     }
 
     //react-paginate
+=======
+import React, {useState} from "react";
+import "../AuthorsTable/AuthorsTable.css";
+import anh1 from '../../pages/staff/images/anh1.jpg';
+
+import {Link} from "react-router-dom";
+import CustomerItems from "./CustomerItems.jsx";
+import ReactPaginate from 'react-paginate';
+
+import "./customerTable.css"
+
+const authors = [
+    {
+        name: "John Michael 1",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 2",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 3",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 4",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 5",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 6",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 7",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 8",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 9",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael 10",
+        email: "john@creative-tim.com",
+        location: "Vung Tau, Vietnam",
+        phone: "0123456789",
+        date: "23/04/18",
+        avatar: anh1
+    },
+];
+
+export default function CustomersTable() {
+>>>>>>> 430932a (TopBar)
     const [itemOffset, setItemOffset] = useState(0);
     const itemsPerPage = 6;
     const endOffset = itemOffset + itemsPerPage;
@@ -31,9 +128,12 @@ export default function CustomersTable() {
         );
         setItemOffset(newOffset);
     };
+<<<<<<< HEAD
     useEffect(() => {
         fetchAuthors()
     }, []);
+=======
+>>>>>>> 430932a (TopBar)
     return(
 
             <div className="table-container">
@@ -52,6 +152,10 @@ export default function CustomersTable() {
                         <th>NAME</th>
                         <th>LOCATION</th>
                         <th>PHONE</th>
+<<<<<<< HEAD
+=======
+                        <th>SIGNED UP</th>
+>>>>>>> 430932a (TopBar)
                         <th></th>
                     </tr>
                     </thead>

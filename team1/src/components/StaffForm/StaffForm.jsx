@@ -38,16 +38,26 @@ export default function StaffForm() {
                             <label htmlFor="phone">Phone Number</label>
                             <input type="text" id="phone" placeholder="Phone Number"/>
                         </div>
+<<<<<<< HEAD
                         {/*<div className="edit-profile__field">*/}
                         {/*    <label htmlFor="role">Role</label>*/}
                         {/*    <select id="role">*/}
                         {/*        <option>--Select--</option>*/}
                         {/*    </select>*/}
                         {/*</div>*/}
+=======
+                        <div className="edit-profile__field">
+                            <label htmlFor="role">Role</label>
+                            <select id="role">
+                                <option>--Select--</option>
+                            </select>
+                        </div>
+>>>>>>> 430932a (TopBar)
                         <div className="edit-profile__field">
                             <label htmlFor="salary">Salary</label>
                             <input type="text" id="salary" placeholder="Salary"/>
                         </div>
+<<<<<<< HEAD
                         <div className="edit-profile__field">
                             <label htmlFor="team">Team</label>
                             <input type="text" id="team" placeholder="Team"/>
@@ -56,6 +66,8 @@ export default function StaffForm() {
                             <label htmlFor="title">Title</label>
                             <input type="text" id="title" placeholder="Title"/>
                         </div>
+=======
+>>>>>>> 430932a (TopBar)
                         {/*<div className="edit-profile__field edit-profile__field--full">*/}
                         {/*    <label htmlFor="about">About Me</label>*/}
                         {/*    <textarea id="about" placeholder="Enter about your description"></textarea>*/}

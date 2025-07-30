@@ -30,7 +30,10 @@ export default function Header() {
     function handleLogout() {
         localStorage.removeItem('isLoggedIn');
         localStorage.removeItem('userRole');
+<<<<<<< HEAD
         localStorage.removeItem('currentUser');
+=======
+>>>>>>> 430932a (TopBar)
         navigate('/ega/login');
     }
     return (

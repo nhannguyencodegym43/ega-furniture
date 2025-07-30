@@ -13,6 +13,8 @@ import AdminNav from "./components/admin-nav/AdminNav.jsx";
 import AdminSidebar from "./components/admin-sidebar/AdminSidebar.jsx";
 import StaffForm from "./components/StaffForm/StaffForm.jsx";
 import CustomersTable from "./components/admin-customers-table/CustomersTable.jsx";
+import TopBar from './pages/TopBar/TopBar.jsx';
+
 ;
 
 function App() {
@@ -27,6 +29,9 @@ function App() {
                 <Route path="/ega/product/:id" element={<div>Hello</div>}></Route>
                 <Route path="/ega/dashboard" element={<Dashboard/>}></Route>
                 <Route path="/ega/dashboard/staff" element={<Staff/>}></Route>
+                <Route path="/ega/dashboard" element={<Dashboard/>}></Route>
+                <Route path="/ega/dashboard/staff" element={<Staff/>}></Route>
+                <Route path="/ega/dashboard/TopBar" element={<TopBar/>}></Route>
                 <Route path="/ega/dashboard/staff/add" element={
                     <AdminLayout>
                         <header>

@@ -27,7 +27,10 @@ export default function Login() {
         if (user) {
             localStorage.setItem('isLoggedIn', 'true');
             localStorage.setItem('userRole', user.role);
+<<<<<<< HEAD
             localStorage.setItem('currentUser', JSON.stringify(user));
+=======
+>>>>>>> 430932a (TopBar)
             switch (user.role) {
                 case "admin":
                     navigate("/ega/dashboard")

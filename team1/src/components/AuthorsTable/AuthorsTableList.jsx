@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {useEffect, useState} from "react";
 import "./AuthorsTable.css";
 import {Link} from "react-router-dom";
@@ -18,6 +19,109 @@ export default function AuthorsTable() {
     useEffect(() => {
         fetchAuthors();
     }, [])
+=======
+import React, {useState} from "react";
+import "./AuthorsTable.css";
+import anh1 from '../../pages/staff/images/anh1.jpg';
+import anh2 from '../../pages/staff/images/anh2.jpg';
+import anh3 from '../../pages/staff/images/anh3.jpg';
+import anh4 from '../../pages/staff/images/anh4.jpg';
+import {Link} from "react-router-dom";
+import ReactPaginate from "react-paginate";
+import AuthorItems from "./AuthorItems.jsx";
+
+
+const authors = [
+    {
+        name: "John Michael",
+        email: "john@creative-tim.com",
+        role: "Manager",
+        team: "Organization",
+        status: "online",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "Alexa Liras",
+        email: "alexa@creative-tim.com",
+        role: "Programator",
+        team: "Developer",
+        status: "offline",
+        date: "11/01/19",
+        avatar: anh2
+    },
+    {
+        name: "Laurent Perrier",
+        email: "laurent@creative-tim.com",
+        role: "Executive",
+        team: "Projects",
+        status: "online",
+        date: "19/09/17",
+        avatar: anh3
+    },
+    {
+        name: "Michael Levi",
+        email: "michael@creative-tim.com",
+        role: "Programator",
+        team: "Developer",
+        status: "online",
+        date: "24/12/08",
+        avatar: anh4
+    },
+    {
+        name: "Michael Levi",
+        email: "michael@creative-tim.com",
+        role: "Programator",
+        team: "Developer",
+        status: "online",
+        date: "24/12/08",
+        avatar: anh4
+    },
+    {
+        name: "John Michael",
+        email: "john@creative-tim.com",
+        role: "Manager",
+        team: "Organization",
+        status: "online",
+        date: "23/04/18",
+        avatar: anh1
+    },
+    {
+        name: "John Michael",
+        email: "john@creative-tim.com",
+        role: "Manager",
+        team: "Organization",
+        status: "online",
+        date: "23/04/18",
+        avatar: anh1
+    }
+    ,
+    {
+        name: "John Michael",
+        email: "john@creative-tim.com",
+        role: "Manager",
+        team: "Organization",
+        status: "online",
+        date: "23/04/18",
+        avatar: anh1
+    }
+    ,
+    {
+        name: "John Michael",
+        email: "john@creative-tim.com",
+        role: "Manager",
+        team: "Organization",
+        status: "online",
+        date: "23/04/18",
+        avatar: anh1
+    }
+    ,
+
+];
+
+
+export default function AuthorsTable() {
+>>>>>>> 430932a (TopBar)
     const [itemOffset, setItemOffset] = useState(0);
     const itemsPerPage = 6;
     const endOffset = itemOffset + itemsPerPage;
@@ -58,6 +162,35 @@ export default function AuthorsTable() {
                     </tr>
                     </thead>
                     <tbody>
+<<<<<<< HEAD
+=======
+                {/*    {authors.map((author, index) => (*/}
+                {/*        <tr key={index}>*/}
+                {/*            <td className="author-cell">*/}
+                {/*                <img src={author.avatar} alt={author.name} />*/}
+                {/*                <div>*/}
+                {/*                    <div className="name">{author.name}</div>*/}
+                {/*                    <div className="email">{author.email}</div>*/}
+                {/*                </div>*/}
+                {/*            </td>*/}
+                {/*            <td>*/}
+                {/*                <div className="role">{author.role}</div>*/}
+                {/*                <div className="team">{author.team}</div>*/}
+                {/*            </td>*/}
+                {/*            <td>*/}
+                {/*<span className={`status ${author.status}`}>*/}
+                {/*  {author.status.toUpperCase()}*/}
+                {/*</span>*/}
+                {/*            </td>*/}
+                {/*            <td>{author.date}</td>*/}
+                {/*            <td>*/}
+                {/*                <button className="edit-btn">Edit</button>*/}
+                {/*                <button className="edit-btn">Delete</button>*/}
+                {/*                <button className="edit-btn">Reset Password</button>*/}
+                {/*            </td>*/}
+                {/*        </tr>*/}
+                {/*    ))}*/}
+>>>>>>> 430932a (TopBar)
                     <AuthorItems currentItems={currentItems} />
                     </tbody>
                 </table>

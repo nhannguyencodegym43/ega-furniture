@@ -1,6 +1,9 @@
 import "./adminNav.css"
 import {Link} from "react-router-dom";
+<<<<<<< HEAD
 import {useEffect, useState} from "react";
+=======
+>>>>>>> 430932a (TopBar)
 export default function AdminNav() {
     const [currentUser, setCurrentUser] = useState({});
     useEffect(() => {

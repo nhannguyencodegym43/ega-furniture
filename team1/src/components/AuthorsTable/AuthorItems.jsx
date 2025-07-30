@@ -9,12 +9,20 @@ export default function AuthorItems({currentItems}) {
                     <td className="author-cell">
                         <img src={author.avatar} alt={author.name} />
                         <div>
+<<<<<<< HEAD
                             <div className="name">{`${author.firstName} ${author.lastName}`}</div>
+=======
+                            <div className="name">{author.name}</div>
+>>>>>>> 430932a (TopBar)
                             <div className="email">{author.email}</div>
                         </div>
                     </td>
                     <td>
+<<<<<<< HEAD
                         <div className="role">{author.title}</div>
+=======
+                        <div className="role">{author.role}</div>
+>>>>>>> 430932a (TopBar)
                         <div className="team">{author.team}</div>
                     </td>
                     <td>
