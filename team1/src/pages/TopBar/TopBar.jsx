@@ -41,7 +41,7 @@ export default function TopBar() {
           <img src={avatar} alt="avatar" className="avatar" />
           <div className="text-group">
             <span className="username">Emay Walter</span>
-            <span className="role">Admin ▾</span>
+            <span className="role">admin ▾</span>
           </div>
         </div>
       </div>
