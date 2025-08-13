@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist -b gh-pages -t true"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@coreui/coreui": "^5.4.1",
