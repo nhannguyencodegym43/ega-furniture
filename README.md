@@ -31,14 +31,16 @@ A modern furniture e-commerce web application built with React, Vite, and Bootst
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/nhannguyencodegym43/ega-furniture.git
    
 2. Navigate into the project folder
-cd ableton-remake
+   ```sh
+   cd team1
 
 3. Install dependencies
-npm install
+   ```sh
+   npm install
 
 4. Start the development server
-npm run dev
+   ```sh
+   npm run dev
