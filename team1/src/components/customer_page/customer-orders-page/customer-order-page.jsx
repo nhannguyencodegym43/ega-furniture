@@ -52,7 +52,7 @@ function CustomerOrdersPage() {
                                         <td>{order.items.map(item => (
                                             <p key={item.id}>{item.quantity}</p>
                                         ))}</td>
-                                        <td>{new Date(order.date).toLocaleDateString()}</td>
+                                        <td>{order.date}</td>
                                         <td>{currentCustomer.shippingAddress}</td>
                                         <td>{order.total.toLocaleString()} VNĐ</td>
                                         <td>{order.status}</td>
