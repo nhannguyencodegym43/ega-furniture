@@ -14,11 +14,11 @@ A modern furniture e-commerce web application built with React, Vite, and Bootst
 
 ## 🛠️ Tech Stack
 
-⚛️ React
-⚡ Vite
-🎨 Bootstrap
-🛣️ React Router
-📦 npm
+- ⚛️ React
+- ⚡ Vite
+- 🎨 Bootstrap
+- 🛣️ React Router
+- 📦 npm
 
 ## 🚀 Getting Started
 
@@ -33,3 +33,12 @@ A modern furniture e-commerce web application built with React, Vite, and Bootst
    ```sh
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
+   
+2. Navigate into the project folder
+cd ableton-remake
+
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev
