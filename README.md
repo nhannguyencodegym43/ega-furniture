@@ -4,13 +4,13 @@ A modern furniture e-commerce web application built with React, Vite, and Bootst
 
 ## ✨ Features
 
-✅ Product catalog and detail pages
-✅ Flash sale and promotions
-✅ Shopping cart and checkout flow
-✅ Customer registration and login
-✅ Admin dashboard for orders, products, staff, and customers
-✅ Responsive design with Bootstrap
-✅ Customer review section
+- ✅ Product catalog and detail pages
+- ✅ Flash sale and promotions
+- ✅ Shopping cart and checkout flow
+- ✅ Customer registration and login
+- ✅ Admin dashboard for orders, products, staff, and customers
+- ✅ Responsive design with Bootstrap
+- ✅ Customer review section
 
 ## 🛠️ Tech Stack
 
