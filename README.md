@@ -2,7 +2,7 @@
 
 A modern furniture e-commerce web application built with React, Vite, and Bootstrap. Features include product browsing, shopping cart, checkout, customer reviews, admin dashboard, and staff management.
 
-## 🎬 Project Presentation: [https://byvn.net/Aj4t]
+## 🎬 Project Presentation: https://byvn.net/Aj4t
 
 ## ✨ Features
 
