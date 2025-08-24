@@ -18,7 +18,6 @@ A modern furniture e-commerce web application built with React, Vite, and Bootst
 - ⚡ Vite
 - 🎨 Bootstrap
 - 🛣️ React Router
-- 📦 npm
 
 ## 🚀 Getting Started
 
